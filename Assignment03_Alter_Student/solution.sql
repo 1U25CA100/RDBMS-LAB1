@@ -1,7 +1,9 @@
--- Alter Student table
+USE college;
 
--- Add Email
-
--- Add PhoneNumber
-
--- Display structure
+ ALTER TABLE studentdb
+ ADD Email VARCHAR(30);
+ 
+ ALTER TABLE Student
+ ADD  PhoneNumber BIGINT;
+ 
+ DESCRIBE Student;
